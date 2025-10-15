@@ -21,6 +21,7 @@ export default function GallerySection() {
               key={idx}
               className="group relative overflow-hidden rounded-lg shadow-soft hover:shadow-hover transition-all duration-300 aspect-square"
             >
+                {/* hi */}
               <img
                 src={src}
                 alt={`Gallery ${idx + 1}`}
